@@ -1,7 +1,16 @@
 
 ## Asset Administration Shell Registry Interface 
 
-The AAS Registry interface provides rest api services for registration of new AAS descriptors, retrieving and modifying the existing descriptors as specified in [AA Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html). 
+The AAS Registry interface provides rest api services for registration of new AAS descriptors, retrieving and modifying the existing descriptors as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html). 
+
+### Dependencies
+
+Thy project is written in Python 3.7 <br />
+All the Python depdencies are specified in the [requirements.txt](). <br />
+The project uses mongo database as the backend database for storing the shell descriptors. <br />
+The project mandates the use of an MQTT server for exchange of information in 14.0 Json language. <br />
+New Json schema definition file is created on the lines AAS meta model as specified in [AAS Detail Part 1] (https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). <br /> .
+The registration requests are validated using this json schema.
 
 ### Rest API Services
 
@@ -13,12 +22,7 @@ The AAS Registry interface provides rest api services for registration of new AA
 |http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels                       | :heavy_check_mark: |       :x:          |      :x:           |                
 
 
-### Dependencies
 
-Python 3.7 <br />
-All the Python depdencies are specified in the requirements.txt file. <br />
-The project uses mongo database as the backend database for storing the shell descriptors. <br />
-The project mandates the use of an MQTT server for exchange of information in 14.0 Json language. <br />
 
 
 ### Configuration
