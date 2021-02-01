@@ -1,17 +1,17 @@
 
 ## Asset Administration Shell Registry Interface 
 
-
 |                         Name Space                                                  |        GET         |        PUT         |       DELETE       |
 |------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------------------ |
 |http://localhost:9120/api/v1/registry                                                | :heavy_check_mark: |       :x:          |      :x:           |  
 |http://localhost:9120/api/v1/registry/ &lt;aasId&gt;                                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
 |http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
 |http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels                       | :heavy_check_mark: |       :x:          |      :x:           |                
-  
+
 
 
 ### Configuration
+The configuration variables are specified in the .env file. 
 <pre><code>
 LIA_MONGO_HOST=vws_aas_registry_mongo          IP Address of the external Mongo Database
 LIA_MONGO_PORT=27107                           Port of the external Mongo Database
@@ -32,5 +32,5 @@ LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registr
 </code></pre>
 
 ### Issues
-If you want to request new features or report bugs [submit a new issue](https://github.com/admin-shell-io/aasx-server/issues/new)
+If you want to request new features or report bug [submit a new issue](https://github.com/admin-shell-io/aasx-server/issues/new)
 
