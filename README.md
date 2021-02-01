@@ -32,5 +32,5 @@ LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registr
 </code></pre>
 
 ### Issues
-If you want to request new features or report bugs, please create an issue.[submit a new issue](https://github.com/harishpakala/KMD_Project_Sankey/issues/new)
+If you want to request new features or report bugs, please create an issue.[submit a new issue](https://github.com/KMD_Project_Sankey/issues/new)
 
