@@ -1,7 +1,6 @@
 
 ## Asset Administration Shell Registry Interface 
 
-The Asset
 
 |                         Name Space                                                  |        GET         |        PUT         |       DELETE       |
 |------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------------------ |
@@ -31,4 +30,7 @@ LIA_preferedI40EndPoint=MQTT                   The prefered communication endpoi
 LIA_preferredCommunicationFormat=JSON          The prefered communication format 
 LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registry interface 
 </code></pre>
+
+### Issues
+If you want to request new features or report bugs, please create an issue.[submit a new issue](https://github.com/[username]/[repo_name]/issues/new)
 
