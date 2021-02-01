@@ -50,7 +50,7 @@ LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registr
 The project is modelled as per the remondations of research group LIA OVGU for AAS Architecture. The project is an AAS providing the services of
 Registry Interface, the aas details are modelled using the AAS package file. The file is located in the config folder. The project is generated
 using the templating engine being designed by LIA OVGU working group. The AAS, has RegistryHandler skill that handles the registration requests
-in I4.0 language.
+in I4.0 language as specified in [VDI/VDE 2193-1](https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-1-sprache-fuer-i40-komponenten-struktur-von-nachrichten) and [VDI/VDE 2193-29](https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-2-sprache-fuer-i40-komponenten-interaktionsprotokoll-fuer-ausschreibungsverfahren)
 
 ### Ruuning 
 
