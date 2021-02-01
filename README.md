@@ -1,7 +1,7 @@
 
 ## Asset Administration Shell Registry Interface 
 
-[AA Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html)
+The AAS Registry interface provides rest api services for registration of new AAS descriptors, retrieving and modifying the existing descriptors as specified in [AA Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html). 
 
 ### Rest API Services
 
@@ -15,10 +15,10 @@
 
 ### Dependencies
 
-Python 3.7 
-All the Python depdencies are specified in the requirements.txt file.
-The project uses mongo database as the backend database for storing the shell descriptors.
-The project mandates the use of an MQTT server for exchange of information in 14.0 Json language.
+Python 3.7 <br />
+All the Python depdencies are specified in the requirements.txt file. <br />
+The project uses mongo database as the backend database for storing the shell descriptors. <br />
+The project mandates the use of an MQTT server for exchange of information in 14.0 Json language. <br />
 
 
 ### Configuration
