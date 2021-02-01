@@ -25,8 +25,6 @@ The AAS Registry interface provides rest api services for registration of new AA
 
 
 
-
-
 ### Configuration
 The configuration variables are specified in the .env file. 
 <pre><code>
@@ -48,15 +46,15 @@ LIA_preferredCommunicationFormat=JSON          The prefered communication format
 LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registry interface 
 </code></pre>
 
-### Installation using Docker 
-
-
 ### Organization 
-The project is modelled as per the remondation of research group LIA OVGU for AAS Architecture. The project is an AAS providing the services of
+The project is modelled as per the remondations of research group LIA OVGU for AAS Architecture. The project is an AAS providing the services of
 Registry Interface, the aas details are modelled using the AAS package file. The file is located in the config folder. The project is generated
-using the templating engine being designed by LIA OVGU working group. The AAS, has RegistryHandler skills that handles the registration requests
+using the templating engine being designed by LIA OVGU working group. The AAS, has RegistryHandler skill that handles the registration requests
 in I4.0 language.
 
+### Ruuning 
+
+### Installation using Docker 
 
 
 
