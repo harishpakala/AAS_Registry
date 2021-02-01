@@ -3,6 +3,8 @@
 
 [AA Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html)
 
+### Rest API Services
+
 |                         Name Space                                                  |        GET         |        PUT         |       DELETE       |
 |------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------------------ |
 |http://localhost:9120/api/v1/registry                                                | :heavy_check_mark: |       :x:          |      :x:           |  
@@ -11,13 +13,15 @@
 |http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels                       | :heavy_check_mark: |       :x:          |      :x:           |                
 
 
+### Dependencies
+
 
 ### Configuration
 The configuration variables are specified in the .env file. 
 <pre><code>
-LIA_MONGO_HOST=vws_aas_registry_mongo          IP Address of the external Mongo Database
+LIA_MONGO_HOST=vws_aas_registry_mongo          IP Address of the external Mongo Database (In case of docker, docker container is specified.)
 LIA_MONGO_PORT=27107                           Port of the external Mongo Database
-LIA_MONGO_CONTAINER=vws_aas_registry_mongo     In case a new mongo database is required, docker image is provided in the docker-compose.yml file. 
+LIA_MONGO_CONTAINER=vws_aas_registry_mongo     In case a new mongo database is required, docker image is provided in the docker-compose.yml file
 LIA_AAS_RESTAPI_HOST_EXTERN=localhost          IP address of the registry interface at which the REST API services are available
 LIA_AAS_RESTAPI_PORT_EXTERN=9021               Port of the registry interface at which the REST API services are available  
 LIA_AAS_RESTAPI_PORT_INTERN=80                 Internal port for rest api interface in case multiple docker imgaes providing rest services
@@ -33,6 +37,18 @@ LIA_preferredCommunicationFormat=JSON          The prefered communication format
 LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registry interface 
 </code></pre>
 
+### Installing using Docker 
+
+
+### Organization 
+
+### Logs
+
 ### Issues
-If you want to request new features or report bug [submit a new issue](https://github.com/admin-shell-io/aasx-server/issues/new)
+If you want to request new features or report bug [submit a new issue](link is required)
+
+## License
+
+Apache 2.0
+
 
