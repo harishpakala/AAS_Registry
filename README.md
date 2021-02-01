@@ -6,11 +6,11 @@ The AAS Registry interface provides rest api services for registration of new AA
 ### Dependencies
 
 :one: Thy project is written in Python 3.7 <br />
-:two: All the Python depdencies are specified in the [requirements.txt](). <br />
-:three: The project uses mongo database as the backend database for storing the shell descriptors. <br />
-:four: The project mandates the use of an MQTT server for exchange of information in 14.0 Json language. <br />
-:five: New Json schema definition file is created on the lines AAS meta model as specified in [AAS Detail Part 1] (https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). <br /> .
-The registration requests are validated using this json schema.
+:two: All the Python depdencies are specified in the [requirements.txt]() <br />
+:three: The project uses mongodb as the backend database for storing the shell descriptors. <br />
+:four: The project mandates use of an MQTT server for exchange of information in 14.0 Json language. <br />
+:five: A New Json schema definition file is created on the lines AAS meta model as specified in [AAS Detail Part 1](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). The registration requests are validated using this json schema.<br />
+
 
 ### Rest API Services
 
