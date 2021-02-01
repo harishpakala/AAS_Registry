@@ -15,6 +15,11 @@
 
 ### Dependencies
 
+Python 3.7 
+All the Python depdencies are specified in the requirements.txt file.
+The project uses mongo database as the backend database for storing the shell descriptors.
+The project mandates the use of an MQTT server for exchange of information in 14.0 Json language.
+
 
 ### Configuration
 The configuration variables are specified in the .env file. 
@@ -37,10 +42,17 @@ LIA_preferredCommunicationFormat=JSON          The prefered communication format
 LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registry interface 
 </code></pre>
 
-### Installing using Docker 
+### Installation using Docker 
 
 
 ### Organization 
+The project is modelled as per the remondation of research group LIA OVGU for AAS Architecture. The project is an AAS providing the services of
+Registry Interface, the aas details are modelled using the AAS package file. The file is located in the config folder. The project is generated
+using the templating engine being designed by LIA OVGU working group. The AAS, has RegistryHandler skills that handles the registration requests
+in I4.0 language.
+
+
+
 
 ### Logs
 
@@ -52,3 +64,4 @@ If you want to request new features or report bug [submit a new issue](link is r
 Apache 2.0
 
 
+of 
