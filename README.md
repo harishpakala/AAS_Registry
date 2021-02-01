@@ -1,5 +1,5 @@
 
-# PYTHON AASX Registry (Detail Part II)
+# Asset Administration Shell Registry Interface 
 
 
 |                         Name Space                                                  |        GET         |        PUT         |       DELETE       |
