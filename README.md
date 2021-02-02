@@ -81,6 +81,7 @@ The project code is structured into 10 sub directories, each one representing a 
 <strong>docker-compose build</strong><br/><br/><strong>docker-compose up</strong>
 
 ### Logs
+The python project maintains a logger, all the important aspects regarding its functionning are captured with logger. The entire log information is stored into .LOG files under the src &gt; main &gt; logs folder, in case of docker under logs (the log files will also be mapped to the hostt system, related mapping information is provided in the docker-compose.yml file).
 
 ### Issues
 If you want to request new features or report bug [submit a new issue](link is required)
