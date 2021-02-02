@@ -53,9 +53,9 @@ using templating engine being designed by LIA OVGU working group. The AAS, has R
 in I4.0 language as specified in [VDI/VDE 2193-1](https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-1-sprache-fuer-i40-komponenten-struktur-von-nachrichten) and [VDI/VDE 2193-2](https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-2-sprache-fuer-i40-komponenten-interaktionsprotokoll-fuer-ausschreibungsverfahren). 
 The project is under continuous development for providing new features, however the basic rest api features remain unaffected.
 
-:file_folder:<br />
+&nbsp;:file_folder:<br />
 &nbsp;|<br />
-&nbsp; :file_folder:src<br />
+&nbsp;:file_folder:src<br />
 |<br />
 |--------- :file_folder: main<br />
 &nbsp; &nbsp; |<br />
