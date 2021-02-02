@@ -47,13 +47,13 @@ LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registr
 </code></pre>
 
 ### Organization 
+<p align="center">
 The project is modelled as per the remondations of research group LIA OVGU for AAS Architecture. The project is an AAS providing the services of
 Registry Interface, related information is modelled as per of AAS meta model submodels using the [AAS package file]. The project is generated
 using templating engine being designed by LIA OVGU working group. The AAS, has RegistryHandler skill that handles the registration requests
-in I4.0 language as specified in [VDI/VDE 2193-1](https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-1-sprache-fuer-i40-komponenten-struktur-von-nachrichten) and 
-[VDI/VDE 2193-2](https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-2-sprache-fuer-i40-komponenten-interaktionsprotokoll-fuer-ausschreibungsverfahren). 
+in I4.0 language as specified in <a href="https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-1-sprache-fuer-i40-komponenten-struktur-von-nachrichten">VDI/VDE 2193-1</a> and <a href="https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-2-sprache-fuer-i40-komponenten-interaktionsprotokoll-fuer-ausschreibungsverfahren">VDI/VDE 2193-2</a>. 
 The project is under continuous development for adding new features, however the basic rest api services remain unaffected. The project code is structured 10 sub directories, each one representing one component of the AAS architecture, (to note the registry is not associated with an asset). The vws_aas_registry.py python file is the main component of the registry AAS, it initializes, configures and starts all other components. Each component is an independent feature of the AAS that works on a seperate thread.
-
+</p>
 &nbsp;:file_folder:<br />
 &nbsp; &nbsp; |---:file_folder:src<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |--- :file_folder: main<br />
