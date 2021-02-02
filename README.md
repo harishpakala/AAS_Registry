@@ -54,8 +54,8 @@ in I4.0 language as specified in [VDI/VDE 2193-1](https://www.vdi.de/richtlinien
 The project is under continuous development for providing new features, however the basic rest api features remain unaffected.
 
 :file_folder:<br />
-|<br />
-:file_folder:src<br />
+&nbsp;|<br />
+&nbsp; :file_folder:src<br />
 |<br />
 |--------- :file_folder: main<br />
 &nbsp; &nbsp; |<br />
