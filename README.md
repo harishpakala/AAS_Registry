@@ -77,8 +77,8 @@ The project code is structured into 10 sub directories, each one representing a 
 1) As python program  <br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>python3 vws_aas_registry.py</strong>
 
-2) As a docker container. A docker-compose.yml is provided with in the repository. If the mongo database is already available, the mongo image details should be removed form the compose file. <br/>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <strong>docker-compose build</strong> <br/>
+2) As a docker container. A docker-compose.yml is provided with in the repository. If the mongo database is already available, the mongo image details should be removed form the compose file. <br/><br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>docker-compose build</strong> <br/>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>docker-compose up</strong>
 
 ### Logs
