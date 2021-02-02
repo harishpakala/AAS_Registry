@@ -78,7 +78,7 @@ The project code is structured into 10 sub directories, each one representing a 
 <strong>python3 vws_aas_registry.py</strong>
 
 2) As a docker container. A docker-compose.yml is provided with in the repository. If the mongo database is already available, the mongo image details should be removed form the compose file. <br/><br/>
-<strong>docker-compose build</strong><br/><br/><strong>docker-compose up</strong>
+<strong>docker-compose build</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>docker-compose up</strong>
 
 ### Logs
 The python project maintains a logger, all the important aspects regarding its functionning are captured with logger. The entire log information is stored into .LOG files under the src &gt; main &gt; logs folder, in case of docker under logs (the log files will also be mapped to the hostt system, related mapping information is provided in the docker-compose.yml file).
