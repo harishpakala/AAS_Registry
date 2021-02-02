@@ -55,7 +55,7 @@ The project is under continuous development for providing new features, however 
 
 &nbsp;:file_folder:<br />
 &nbsp; &nbsp; |<br />
-&nbsp; &nbsp; |---:file_folder:src<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |---:file_folder:src<br />
 &nbsp; &nbsp; |<br />
 &nbsp; &nbsp; |--- :file_folder: main<br />
 &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp;|<br />
