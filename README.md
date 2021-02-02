@@ -6,10 +6,10 @@ The AAS Registry interface provides rest api services for registration of new AA
 ## Dependencies
 
 :one: Thy project is written in Python 3.7 <br />
-:two: All the Python depdencies are specified in the [requirements.txt]() <br />
+:two: All the Python dependencies are specified in the [requirements.txt]() <br />
 :three: The project uses mongodb as the backend database for storing the shell descriptors. <br />
 :four: The project mandates use of an MQTT server for exchange of information in 14.0 Json language. <br />
-:five: AAS descriptors are represented in JSON format as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html), a new Json schema definitionis created in accordance  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; with  the AAS meta  model as specified in [AAS Detail Part 1](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). The registration and modification requests are validated using this json schema.<br />
+:five: AAS descriptors are represented in JSON format as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html), a new Json schema definition is created in accordance  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; with  the AAS meta  model as specified in [AAS Detail Part 1](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). The registration and modification requests are validated using this json schema.<br />
 :six: The LIA OVGU development uses eclipse editor, accordingly eclipse related project files are provided in the repository.
 
 
@@ -40,14 +40,14 @@ LIA_AAS_OPCUA_PORT=4840                        Port of the registry interface at
 LIA_AAS_ETHEREUM_HOST=localhost                IP address of the external ethereum network  
 LIA_AAS_ETHEREUM_PORT=31003                    Port of the external ethereum network 
 LIA_dockerimage=mongo                          Mogo Database docker image
-LIA_preferedI40EndPoint=MQTT                   The prefered communication endpoint over which the registry interface looks for incoming messages
-LIA_preferredCommunicationFormat=JSON          The prefered communication format 
+LIA_preferedI40EndPoint=MQTT                   The prefereed communication endpoint over which the registry interface looks for incoming messages
+LIA_preferredCommunicationFormat=JSON          The prefeered communication format 
 LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registry interface 
 </code></pre>
 
 ## Organization 
 <p align="justify">
-The project is modelled as per the remondations of OVGU - LIA working group for AAS Architecture. The software component is an AAS providing services of a
+The project is modelled as per the recommendations of OVGU - LIA working group for AAS Architecture. The software component is an AAS providing services of a
 Registry Interface, all related information is modelled as per AAS meta model submodels using the [AAS package file]. The project is created
 using a templating engine being designed by OVGU - LIA working group. The AAS has RegistryHandler skill that handles incoming registration requests formatted in I4.0 language as specified in <a href="https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-1-sprache-fuer-i40-komponenten-struktur-von-nachrichten">VDI/VDE 2193-1</a> and <a href="https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-2-sprache-fuer-i40-komponenten-interaktionsprotokoll-fuer-ausschreibungsverfahren">VDI/VDE 2193-2</a>. 
 The project is under continuous development for adding new features, however the basic rest api services remain unaffected. 
@@ -70,18 +70,18 @@ The project is under continuous development for adding new features, however the
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:file_folder:config<br />
 </p>
 <p align="justified">
-The project code is structured into 10 sub directories, each one representing a component of the AAS architecture, (to note the registry is not associated with an asset). The vws_aas_registry.py python file is the main component of the registry AAS it initializes, configures and starts all other components. Each component is an independent feature of the AAS that works on a seperate python thread. The class diagrams of the project architecture are provided in the resources directory. An example descriptor json and the restClient python script is provided in the examples directory.
+The project code is structured into 10 sub directories, each one representing a component of the AAS architecture, (to note the registry is not associated with an asset). The vws_aas_registry.py python file is the main component of the registry AAS it initializes, configures and starts all other components. Each component is an independent feature of the AAS that works on a separate python thread. The class diagrams of the project architecture are provided in the resources directory. An example descriptor json and the restClient python script is provided in the examples directory.
 </p>
 
 ## Running 
 1) As python program  <br/><br/>
 <strong>python3 vws_aas_registry.py</strong>
 
-2) As a docker container. A docker-compose.yml is provided with in the repository. If the mongo database is already available, the mongo image details should be removed form the compose file. <br/><br/>
+2) As a docker container. A docker-compose.yml is provided with in the repository. If the mongo database is already available, the mongo image details should be removed from the compose file. <br/><br/>
 <strong>docker-compose build</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>docker-compose up</strong>
 
 ## Logs
-The python project maintains a logger, all the important aspects regarding its functionning are captured with logger. The entire log information is stored into .LOG files under the src &gt; main &gt; logs folder, in case of docker under logs (the log files will also be mapped to the hostt system, related mapping information is provided in the docker-compose.yml file).
+The python project maintains a logger, all the important aspects regarding its functionality  are captured with logger. The entire log information is stored into .LOG files under the src &gt; main &gt; logs folder, in case of docker under logs (the log files will also be mapped to the host system, related mapping information is provided in the docker-compose.yml file).
 
 ## Issues
 If you want to request new features or report bug [submit a new issue](link is required)
