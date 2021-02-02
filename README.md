@@ -56,8 +56,8 @@ The project is under continuous development for providing new features, however 
 &nbsp;:file_folder:<br />
 &nbsp;|<br />
 &nbsp;:file_folder:src<br />
-|<br />
-|--------- :file_folder: main<br />
+&nbsp;|<br />
+&nbsp;|-- :file_folder: main<br />
 &nbsp; &nbsp; |<br />
 &nbsp; &nbsp; |--------:file_folder: aasendpointhandlers<br />
 &nbsp; &nbsp; |--------:file_folder: abstract<br />
