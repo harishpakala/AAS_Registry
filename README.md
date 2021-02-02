@@ -51,7 +51,7 @@ The project is modelled as per the remondations of OVGU - LIA working group for 
 Registry Interface, all related information is modelled as per AAS meta model submodels using the [AAS package file]. The project is created
 using a templating engine being designed by OVGU - LIA working group. The AAS has RegistryHandler skill that handles incoming registration requests formatted in I4.0 language as specified in <a href="https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-1-sprache-fuer-i40-komponenten-struktur-von-nachrichten">VDI/VDE 2193-1</a> and <a href="https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-2-sprache-fuer-i40-komponenten-interaktionsprotokoll-fuer-ausschreibungsverfahren">VDI/VDE 2193-2</a>. 
 The project is under continuous development for adding new features, however the basic rest api services remain unaffected. The project code is structured into 10 sub directories, each one representing a component of the AAS architecture, (to note the registry is not associated with an asset). The vws_aas_registry.py python file is the main component of the registry AAS it initializes, configures and starts all other components. Each component is an independent feature of the AAS that works on a seperate python thread.
-
+<p>
 &nbsp;:file_folder:<br />
 &nbsp; &nbsp; |---:file_folder:src<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |--- :file_folder: main<br />
@@ -68,7 +68,7 @@ The project is under continuous development for adding new features, however the
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:file_folder:logs<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:file_folder:config<br />
-
+</p>
 
 
 ### Ruuning 
