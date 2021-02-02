@@ -1,7 +1,7 @@
 
 ## Asset Administration Shell Registry Interface 
 
-The AAS Registry interface provides rest api services for registration of new AAS descriptors, retrieving and modifying the existing descriptors as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html). 
+The AAS Registry interface provides rest api services for registration of new AAS descriptors, retrieving and modifying the existing descriptors as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html).
 
 ### Dependencies
 
@@ -9,7 +9,7 @@ The AAS Registry interface provides rest api services for registration of new AA
 :two: All the Python depdencies are specified in the [requirements.txt]() <br />
 :three: The project uses mongodb as the backend database for storing the shell descriptors. <br />
 :four: The project mandates use of an MQTT server for exchange of information in 14.0 Json language. <br />
-:five: A New Json schema definition file is created on the lines AAS meta model as specified in [AAS Detail Part 1](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). <br />
+:five: AAS descriptors are represented in JSON format as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html), a new Json schema definition is created in accordance with the AAS meta model as specified in [AAS Detail Part 1](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). <br />
 &nbsp; &nbsp; &nbsp; &nbsp;The registration and modification requests are validated using this json schema.<br />
 :six: The LIA OVGU development uses eclipse editor, accordingly eclipse related project files are provided in the repository.
 
