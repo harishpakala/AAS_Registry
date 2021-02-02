@@ -13,7 +13,7 @@ The AAS Registry interface provides rest api services for registration of new AA
 :six: The LIA OVGU development uses eclipse editor, accordingly eclipse related project files are provided in the repository.
 
 
-### Rest API Services
+## Rest API Services
 
 |                         Name Space                                                  |        GET         |        PUT         |       DELETE       |
 |------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------------------ |
@@ -24,7 +24,7 @@ The AAS Registry interface provides rest api services for registration of new AA
 
 
 
-### Configuration
+## Configuration
 The configuration variables are specified in the .env file. 
 <pre><code>
 LIA_MONGO_HOST=vws_aas_registry_mongo          IP Address of the external Mongo Database (In case of docker, docker container is specified.)
@@ -45,7 +45,7 @@ LIA_preferredCommunicationFormat=JSON          The prefered communication format
 LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registry interface 
 </code></pre>
 
-### Organization 
+## Organization 
 <p align="justify">
 The project is modelled as per the remondations of OVGU - LIA working group for AAS Architecture. The software component is an AAS providing services of a
 Registry Interface, all related information is modelled as per AAS meta model submodels using the [AAS package file]. The project is created
@@ -73,17 +73,17 @@ The project is under continuous development for adding new features, however the
 The project code is structured into 10 sub directories, each one representing a component of the AAS architecture, (to note the registry is not associated with an asset). The vws_aas_registry.py python file is the main component of the registry AAS it initializes, configures and starts all other components. Each component is an independent feature of the AAS that works on a seperate python thread. The class diagrams of the project architecture are provided in the resources directory. An example descriptor json and the restClient python script is provided in the examples directory.
 </p>
 
-### Ruuning 
+## Ruuning 
 1) As python program  <br/><br/>
 <strong>python3 vws_aas_registry.py</strong>
 
 2) As a docker container. A docker-compose.yml is provided with in the repository. If the mongo database is already available, the mongo image details should be removed form the compose file. <br/><br/>
 <strong>docker-compose build</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>docker-compose up</strong>
 
-### Logs
+## Logs
 The python project maintains a logger, all the important aspects regarding its functionning are captured with logger. The entire log information is stored into .LOG files under the src &gt; main &gt; logs folder, in case of docker under logs (the log files will also be mapped to the hostt system, related mapping information is provided in the docker-compose.yml file).
 
-### Issues
+## Issues
 If you want to request new features or report bug [submit a new issue](link is required)
 
 ## License
@@ -95,7 +95,3 @@ pybars3, opcua GNU Lesser General Public License v3
 paho-mqtt  OSI Approved (Eclipse Public License v1.0
 Flask,werkzeug, Flask-RESTful, python-dotenv BSD-3-Clause
 pymongo, requests Apache License, Version 2.0
-
-
-
-of 
