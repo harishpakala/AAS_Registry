@@ -1,9 +1,9 @@
 
-## Asset Administration Shell Registry Interface 
+### Asset Administration Shell Registry Interface 
 
 The AAS Registry interface provides rest api services for registration of new AAS descriptors, retrieving and modifying the existing descriptors as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html).
 
-### Dependencies
+#### Dependencies
 
 :one: Thy project is written in Python 3.7 <br />
 :two: All the Python depdencies are specified in the [requirements.txt]() <br />
@@ -88,7 +88,14 @@ If you want to request new features or report bug [submit a new issue](link is r
 
 ## License
 
-Apache 2.0
+VWS_AAS_Registry License under Apache 2.0, the complete license text including the copy rights is included under [License.txt]
+
+APScheduler,python-snap,jsonschema,web3 MIT License
+pybars3, opcua GNU Lesser General Public License v3
+paho-mqtt  OSI Approved (Eclipse Public License v1.0
+Flask,werkzeug, Flask-RESTful, python-dotenv BSD-3-Clause
+pymongo, requests Apache License, Version 2.0
+
 
 
 of 
