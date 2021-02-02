@@ -9,7 +9,7 @@ The AAS Registry interface provides rest api services for registration of new AA
 :two: All the Python depdencies are specified in the [requirements.txt]() <br />
 :three: The project uses mongodb as the backend database for storing the shell descriptors. <br />
 :four: The project mandates use of an MQTT server for exchange of information in 14.0 Json language. <br />
-:five: AAS descriptors are represented in JSON format as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html), a new Json schema definitionis created in accordance with &nbsp; &nbsp; &nbsp; &nbsp; the AAS meta  model as specified in [AAS Detail Part 1](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). The registration and modification requests are validated using this json schema.<br />
+:five: AAS descriptors are represented in JSON format as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html), a new Json schema definitionis created in &nbsp; &nbsp; &nbsp; &nbsp; accordance with  the AAS meta  model as specified in [AAS Detail Part 1](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). The registration and modification requests are validated using this json schema.<br />
 :six: The LIA OVGU development uses eclipse editor, accordingly eclipse related project files are provided in the repository.
 
 
@@ -73,7 +73,7 @@ The project is under continuous development for adding new features, however the
 The project code is structured into 10 sub directories, each one representing a component of the AAS architecture, (to note the registry is not associated with an asset). The vws_aas_registry.py python file is the main component of the registry AAS it initializes, configures and starts all other components. Each component is an independent feature of the AAS that works on a seperate python thread. The class diagrams of the project architecture are provided in the resources directory. An example descriptor json and the restClient python script is provided in the examples directory.
 </p>
 
-## Ruuning 
+## Running 
 1) As python program  <br/><br/>
 <strong>python3 vws_aas_registry.py</strong>
 
