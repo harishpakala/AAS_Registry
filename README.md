@@ -47,7 +47,7 @@ LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registr
 </code></pre>
 
 ### Organization 
-<p align="center">
+<p align="justify">
 The project is modelled as per the remondations of research group LIA OVGU for AAS Architecture. The project is an AAS providing the services of
 Registry Interface, related information is modelled as per of AAS meta model submodels using the [AAS package file]. The project is generated
 using templating engine being designed by LIA OVGU working group. The AAS, has RegistryHandler skill that handles the registration requests
