@@ -74,7 +74,7 @@ The project code is structured into 10 sub directories, each one representing a 
 </p>
 
 ### Ruuning 
-As python program --  ** python3 vws_aas_registry.py **
+As python program   <strong>python3 vws_aas_registry.py</strong>
 
 ### Logs
 
