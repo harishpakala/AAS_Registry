@@ -68,10 +68,10 @@ The project is under continuous development for providing new features, however 
 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---:file_folder: logs<br />
 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---:file_folder: modules<br />
 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---:file_folder: skills<br />
-&nbsp; &nbsp; |--------:file_folder: utils<br />
-:file_folder:logs<br />
-|--------<br />
-:file_folder:config<br />
+&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---|--------:file_folder: utils<br />
+&nbsp;:file_folder:logs<br />
+|<br />
+&nbsp;:file_folder:config<br />
 
 
 
