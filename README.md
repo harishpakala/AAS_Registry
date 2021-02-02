@@ -1,9 +1,9 @@
 
-### Asset Administration Shell Registry Interface 
+# Asset Administration Shell Registry Interface 
 
 The AAS Registry interface provides rest api services for registration of new AAS descriptors, retrieving and modifying the existing descriptors as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html).
 
-#### Dependencies
+## Dependencies
 
 :one: Thy project is written in Python 3.7 <br />
 :two: All the Python depdencies are specified in the [requirements.txt]() <br />
