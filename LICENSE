@@ -1,3 +1,9 @@
+Copyright (c) 2020-2021 OVGU - LIA working group, author: Harish Kumar Pakala.
+
+
+With respect to VWS_AAS_Registry
+=====================================                                 
+                                 
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -26,6 +32,9 @@
       "Source" form shall mean the preferred form for making modifications,
       including but not limited to software source code, documentation
       source, and configuration files.
+      
+      
+      
 
       "Object" form shall mean any form resulting from mechanical
       transformation or translation of a Source form, including but
@@ -199,3 +208,8 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+
+
+
+
