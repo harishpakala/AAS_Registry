@@ -90,8 +90,8 @@ If you want to request new features or report bug [submit a new issue](link is r
 
 VWS_AAS_Registry License under Apache 2.0, the complete license text including the copy rights is included under [License.txt]
 
-APScheduler,python-snap,jsonschema,web3 MIT License <br />
-pybars3, opcua GNU Lesser General Public License v3 <br />
-paho-mqtt  OSI Approved (Eclipse Public License v1.0 <br />
-Flask,werkzeug, Flask-RESTful, python-dotenv BSD-3-Clause <br />
-pymongo, requests Apache License, Version 2.0 <br />
+* APScheduler,python-snap,jsonschema,web3 MIT License <br />
+* pybars3, opcua GNU Lesser General Public License v3 <br />
+* paho-mqtt  OSI Approved (Eclipse Public License v1.0 <br />
+* Flask,werkzeug, Flask-RESTful, python-dotenv BSD-3-Clause <br />
+* pymongo, requests Apache License, Version 2.0 <br />
