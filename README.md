@@ -56,8 +56,8 @@ The project is under continuous development for providing new features, however 
 &nbsp;:file_folder:<br />
 &nbsp; &nbsp; |<br />
 &nbsp;:file_folder:src<br />
-&nbsp; &nbsp; | &nbsp; &nbsp; |<br />
-&nbsp; &nbsp; | &nbsp; &nbsp; |--- :file_folder: main<br />
+&nbsp; &nbsp; |<br />
+&nbsp; &nbsp; |--- :file_folder: main<br />
 &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br />
 &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---:file_folder: aasendpointhandlers<br />
 &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---:file_folder: abstract<br />
@@ -69,7 +69,7 @@ The project is under continuous development for providing new features, however 
 &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---:file_folder: modules<br />
 &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---:file_folder: skills<br />
 &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---:file_folder: utils<br />
-&nbsp; &nbsp; | &nbsp;:file_folder:logs<br />
+&nbsp; |:file_folder:logs<br />
 &nbsp; &nbsp; |<br />
 &nbsp;:file_folder:config<br />
 
