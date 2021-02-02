@@ -13,7 +13,7 @@ The AAS Registry interface provides rest api services for registration of new AA
 :six: The LIA OVGU development uses eclipse editor, accordingly eclipse related project files are provided in the repository.
 
 
-## Rest API Services
+## Registry Rest API Services
 
 |                         Name Space                                                  |        GET         |        PUT         |       DELETE       |
 |------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------------------ |
