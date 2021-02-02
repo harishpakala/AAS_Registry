@@ -72,11 +72,9 @@ The project is under continuous development for adding new features, however the
 <p align="justified">
 The project code is structured into 10 sub directories, each one representing a component of the AAS architecture, (to note the registry is not associated with an asset). The vws_aas_registry.py python file is the main component of the registry AAS it initializes, configures and starts all other components. Each component is an independent feature of the AAS that works on a seperate python thread. The class diagrams of the project architecture are provided in the resources directory. An example descriptor json and the restClient python script is provided in the examples directory.
 </p>
-### Ruuning 
 
-### Installation using Docker 
-&nbsp; &nbsp; 
-&nbsp; &nbsp; 
+### Ruuning 
+As python program --  ** python3 vws_aas_registry.py **
 
 ### Logs
 
