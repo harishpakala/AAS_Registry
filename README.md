@@ -15,12 +15,14 @@ The AAS Registry interface provides rest api services for registration of new AA
 
 ## Registry Rest API Services
 
+VWS_AAS_Registry Interface is an AAS and offers rest API services as prescribed in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html)
+
 |                         Name Space                                                  |        GET         |        PUT         |       DELETE       |
 |------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------------------ |
-|http://localhost:9120/api/v1/registry                                                | :heavy_check_mark: |       :x:          |      :x:           |  
-|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;                                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
-|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
-|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels                       | :heavy_check_mark: |       :x:          |      :x:           |                
+|http://localhost:9120/aas/ &lt;aasId&gt;                                                                             | :heavy_check_mark: |       :x:          |      :x:           |  
+|http://localhost:9120/aas/ &lt;aasId&gt;/submodels                                                                   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
+|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;                                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
+|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;/properties/&lt;submodelId&gt;/value| :heavy_check_mark: |       :x:          |      :x:           |                
 
 
 
@@ -79,6 +81,18 @@ The project code is structured into 10 sub directories, each one representing a 
 
 2) As a docker container. A docker-compose.yml is provided with in the repository. If the mongo database is already available, the mongo image details should be removed from the compose file. <br/><br/>
 <strong>docker-compose build</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>docker-compose up</strong>
+
+## AAS Rest API Services
+
+VWS Registry Interface also provides AAS Rest API Services 
+
+|                         Name Space                                                  |        GET         |        PUT         |       DELETE       |
+|------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------------------ |
+|http://localhost:9120/api/v1/registry                                                | :heavy_check_mark: |       :x:          |      :x:           |  
+|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;                                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
+|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
+|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels                       | :heavy_check_mark: |       :x:          |      :x:           |                
+
 
 ## Logs
 The python project maintains a logger, all the important aspects regarding its functionality  are captured with logger. The entire log information is stored into .LOG files under the src &gt; main &gt; logs folder, in case of docker under logs (the log files will also be mapped to the host system, related mapping information is provided in the docker-compose.yml file).
