@@ -15,15 +15,12 @@ The AAS Registry interface provides rest api services for registration of new AA
 
 ## Registry Rest API Services
 
-VWS_AAS_Registry Interface is an AAS and offers rest API services as prescribed in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html)
-
 |                         Name Space                                                  |        GET         |        PUT         |       DELETE       |
 |------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------------------ |
-|http://localhost:9120/aas/ &lt;aasId&gt;                                                                             | :heavy_check_mark: |       :x:          |      :x:           |  
-|http://localhost:9120/aas/ &lt;aasId&gt;/submodels                                                                   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
-|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;                                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
-|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;/properties/&lt;submodelId&gt;/value| :heavy_check_mark: |       :x:          |      :x:           |                
-
+|http://localhost:9120/api/v1/registry                                                | :heavy_check_mark: |       :x:          |      :x:           |  
+|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;                                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
+|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
+|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels                       | :heavy_check_mark: |       :x:          |      :x:           |                
 
 
 ## Configuration
@@ -84,14 +81,16 @@ The project code is structured into 10 sub directories, each one representing a 
 
 ## AAS Rest API Services
 
-VWS Registry Interface also provides AAS Rest API Services 
+VWS_AAS_Registry Interface is an AAS and offers rest API services as prescribed in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html)
 
 |                         Name Space                                                  |        GET         |        PUT         |       DELETE       |
 |------------------------------------------------------------------------------------ | ------------------ | ------------------ | ------------------ |
-|http://localhost:9120/api/v1/registry                                                | :heavy_check_mark: |       :x:          |      :x:           |  
-|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;                                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
-|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
-|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels                       | :heavy_check_mark: |       :x:          |      :x:           |                
+|http://localhost:9120/aas/ &lt;aasId&gt;                                                                             | :heavy_check_mark: |       :x:          |      :x:           |  
+|http://localhost:9120/aas/ &lt;aasId&gt;/submodels                                                                   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
+|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;                                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |              
+|http://localhost:9120/api/v1/registry/ &lt;aasId&gt;/submodels/&lt;submodelId&gt;/properties/&lt;submodelId&gt;/value| :heavy_check_mark: |       :x:          |      :x:           |                
+
+
 
 
 ## Logs
