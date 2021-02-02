@@ -54,10 +54,10 @@ in I4.0 language as specified in [VDI/VDE 2193-1](https://www.vdi.de/richtlinien
 The project is under continuous development for providing new features, however the basic rest api features remain unaffected.
 
 &nbsp;:file_folder:<br />
-&nbsp;|<br />
+&nbsp; &nbsp; &nbsp; &nbsp; |<br />
 &nbsp;:file_folder:src<br />
-&nbsp;|<br />
-&nbsp;--- :file_folder: main<br />
+&nbsp; &nbsp; &nbsp; &nbsp; |<br />
+&nbsp; &nbsp; &nbsp; &nbsp; --- :file_folder: main<br />
 &nbsp; &nbsp; &nbsp; &nbsp; |<br />
 &nbsp; &nbsp; |--------:file_folder: aasendpointhandlers<br />
 &nbsp; &nbsp; |--------:file_folder: abstract<br />
