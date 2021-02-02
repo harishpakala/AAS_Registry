@@ -48,9 +48,32 @@ LIA_ethereumHashId=2222-3333-44444-4444        Ethereum hash Id for this registr
 
 ### Organization 
 The project is modelled as per the remondations of research group LIA OVGU for AAS Architecture. The project is an AAS providing the services of
-Registry Interface, the aas details are modelled using the AAS package file. The file is located in the config folder. The project is generated
-using the templating engine being designed by LIA OVGU working group. The AAS, has RegistryHandler skill that handles the registration requests
-in I4.0 language as specified in [VDI/VDE 2193-1](https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-1-sprache-fuer-i40-komponenten-struktur-von-nachrichten) and [VDI/VDE 2193-29](https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-2-sprache-fuer-i40-komponenten-interaktionsprotokoll-fuer-ausschreibungsverfahren)
+Registry Interface, related information is modelled as per of AAS meta model submodels using the [AAS package file]. The project is generated
+using templating engine being designed by LIA OVGU working group. The AAS, has RegistryHandler skill that handles the registration requests
+in I4.0 language as specified in [VDI/VDE 2193-1](https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-1-sprache-fuer-i40-komponenten-struktur-von-nachrichten) and [VDI/VDE 2193-2](https://www.vdi.de/richtlinien/details/vdivde-2193-blatt-2-sprache-fuer-i40-komponenten-interaktionsprotokoll-fuer-ausschreibungsverfahren). 
+The project is under continuous development for providing new features, however the basic rest api features remain unaffected.
+
+:file_folder:<br />
+|<br />
+:file_folder:src<br />
+|<br />
+|--------- :file_folder: main<br />
+            |<br />
+            |--------:file_folder: aasendpointhandlers<br />
+            |--------:file_folder: abstract<br />
+            |--------:file_folder: aesstaccessadapters<br />
+            |--------:file_folder: config<br />
+            |--------:file_folder: datastore<br />
+            |--------:file_folder: handlers<br />
+            |--------:file_folder: logs<br />
+            |--------:file_folder: modules<br />
+            |--------:file_folder: skills<br />
+            |--------:file_folder: utils<br />
+:file_folder:logs<br />
+|--------<br />
+:file_folder:config<br />
+
+
 
 ### Ruuning 
 
